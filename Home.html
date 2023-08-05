@@ -1,39 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>First page title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musician Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- Multiple Titles -->
-<h1>Main Title</h1>
-<h2>Subheading 1</h2>
-<h2>Subheading 2</h2>
+<header>
+    <h1>Naz on track lessons</h1>
+    <p>Let your music journey begin!</p>
+</header>
 
-<!-- Table -->
-<table>
-    <tr>
-        <th>Column 1</th>
-        <th>Column 2</th>
-        <th>Column 3</th>
-    </tr>
-    <tr>
-        <td>Row 1, Cell 1</td>
-        <td>Row 1, Cell 2</td>
-        <td>Row 1, Cell 3</td>
-    </tr>
-    <tr>
-        <td>Row 2, Cell 1</td>
-        <td>Row 2, Cell 2</td>
-        <td>Row 2, Cell 3</td>
-    </tr>
-</table>
+<nav>
+    <a href="about.html">About</a>
+    <a href="#">Availability</a>
+    <a href="contact.html">Contact</a>
+</nav>
 
-<!-- Bullet Points -->
-<ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-</ul>
+<div class="container">
+    <section class="musician-info">
+        <img class="musician-image" src="path-to-your-musician-image.jpg" alt="Musician Image">
+        <h2 class="musician-name">Naz on track</h2>
+        <p class="musician-description">I'm a talented musician passionate about creating awesome music.</p>
+    </section>
+
+    <section class="discography">
+        <h2>Discography</h2>
+        <div class="album">
+            <img class="album-image" src="path-to-album1-cover.jpg" alt="Album 1 Cover">
+            <div class="album-info">
+                <h3 class="album-title">Album Title 1</h3>
+                <p class="album-year">Release Year: 2022</p>
+            </div>
+        </div>
+        <div class="album">
+            <img class="album-image" src="path-to-album2-cover.jpg" alt="Album 2 Cover">
+            <div class="album-info">
+                <h3 class="album-title">Album Title 2</h3>
+                <p class="album-year">Release Year: 2023</p>
+            </div>
+        </div>
+        <!-- Add more albums here -->
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2023 Musician Name. All rights reserved.</p>
+</footer>
+
 </body>
 </html>

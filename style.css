@@ -1,0 +1,113 @@
+/* Reset default margins and paddings */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+/* Navigation menu */
+nav {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content area */
+.container {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Musician info section */
+.musician-info {
+  text-align: center;
+}
+
+.musician-image {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.musician-name {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.musician-description {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* Discography section */
+.discography {
+  margin-top: 30px;
+}
+
+.album {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.album-image {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+.album-info {
+  flex: 1;
+}
+
+.album-title {
+  font-size: 20px;
+}
+
+.album-year {
+  font-size: 16px;
+  color: #888;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
