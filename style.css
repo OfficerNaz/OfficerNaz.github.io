@@ -21,6 +21,7 @@ header {
 header h1 {
   font-size: 36px;
   margin-bottom: 10px;
+  margin-top: 50px;
 }
 
 header p {
@@ -28,22 +29,41 @@ header p {
 }
 
 /* Navigation menu */
+/* Update the CSS for the navigation menu */
 nav {
   background-color: #444;
   padding: 10px;
-  text-align: center;
+  /* Set margins for the entire nav element */
+  margin: 0;
+  /* Add a fixed width for the navigation menu */
+  width: 2000px; /* You can adjust the width as needed */
+  /* Set the menu to the left side of the screen */
+  position: fixed;
+  left: 0;
 }
 
+/* Update the CSS for the navigation links */
 nav a {
   color: #fff;
   text-decoration: none;
-  margin: 0 10px;
+  /* Remove the horizontal margin */
+  margin: 10px 0; /* You can adjust the vertical margin as needed */
+  /* Add padding to create space within each link */
+  padding: 5px 10px; /* You can adjust the padding as needed */
+  /* Set the text alignment to left */
+  text-align: left;
+  /* Set the width to 100% to fill the navigation container */
+  width: 100%;
+  /* Add a transition for smooth hover effects */
+  transition: background-color 0.3s ease-in-out;
 }
 
+/* Update the CSS for the navigation links on hover */
 nav a:hover {
   text-decoration: underline;
+  /* Add a background color change on hover */
+  background-color: #555; /* You can adjust the color as needed */
 }
-
 /* Main content area */
 .container {
   max-width: 960px;
